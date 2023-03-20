@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "email": "samanta@email.com",
+      "password": "$2a$10$ZMBlRi819UZNsSa48fLDYemCQYhfvBYAMg1sq7rxl4/iJynpdDXyK",
+      "nome": "Samanta",
+      "idade": 20,
+      "id": 1
+    },
+    {
+      "email": "natan@email.com",
+      "password": "$2a$10$FQAo0SYeaKkzw8YpzN8w1OFB.aFKN.yEwAbrwh0A6GTmAZCUc01pS",
+      "nome": "Natan",
+      "idade": 22,
+      "id": 2
+    },
+    {
+      "email": "luz@email.com",
+      "password": "$2a$10$rAvIth7G/igagu1G1ENpE.MQuWXSipCGXkO0Kx4exgFiA2Z8f1wt.",
+      "nome": "Luiz",
+      "idade": 23,
+      "id": 3
+    },
+    {
+      "email": "bruno@email.com",
+      "password": "$2a$10$itzi/tuXac.ntZ35LmHKNuWEgZKbBIOuN7BX4kdFnolfNOypVXH3y",
+      "nome": "Bruno",
+      "idade": 23,
+      "id": 4
+    },
+    {
+      "email": "samanta.melissa13@gmail.com",
+      "password": "$2a$10$/GsBKlh3QhDDNW9hMC4g8ebUSU.jsVRSWv6csUaD9TUCyPxLMT3N6",
+      "id": 5
+    },
+    {
+      "email": "samanta.melissa@gmail.com",
+      "password": "$2a$10$7/K/wPvg8J.xwnA0XKeGy.D8NQU4/Qbzik6JNNxAqDBWeNYBMzhkS",
+      "id": 6
+    }
+  ]
+}
