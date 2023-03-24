@@ -9,13 +9,13 @@ import {User} from '../models/user'
   providedIn: 'root'
 })
 export class LoginService {
-
-  // Infeção de dependecia -> É uma forma bem simples que nos traz tudo o que precisamos para um componente funcionar perfeitamente. E é isso que fizemos com o HttpClient.
+  // Injeção de dependecia -> É uma forma bem simples que nos traz tudo o que precisamos para um componente funcionar perfeitamente. E é isso que fizemos com o HttpClient.
   constructor(private httpClient: HttpClient ) {}
 
-  url = "http://localhost:3000/users"
+  url = "http://localhost:3000/login"
 
   // O método login(), traz o parametro usuário que importa a class User do arquivo models/user.
+  // USUARIO é a nosso valor objeto que recebe as infor,ações da Class User. 
   // O Observable siginifica que 
   login(usuario: User): Observable<any>{
     // O stringify, nessa situação está tranformando o valor em um valor JSON. 
