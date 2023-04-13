@@ -1,13 +1,17 @@
+<div class="formulario">
+    <div class="div_form">
+        <form #useForm="ngForm" (ngSubmit) = "onSubmit()">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" [(ngModel)] = "userModel.email">
+        
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" [(ngModel)] = "userModel.password">
+            <button id="logar" type="submit">Entrar</button>
+        </form>
+         <p id="mensagem" *ngIf=" mensagemERRO != ' ' " >{{mensagemERRO}}</p>
+         <p id="Dicas_de_senha" *ngIf=" dicas != ' ' " >{{dicas}}</p>
+        <!-- <a href="/contato">Contato</a> -->
+        <a routerLink="/contato">Contato</a>
+    </div>
+</div>
 
-<form #useForm="ngForm" (ngSubmit) = "onSubmit()">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" [(ngModel)] = "userModel.email">
-
-    <label for="senha">Senha:</label>
-    <input type="password" id="senha" name="senha" [(ngModel)] = "userModel.password">
-    <button type="submit">Enviar</button>
-</form>
- <p id="mensagem" *ngIf=" mensagemERRO != ' ' " >{{mensagemERRO}}</p>
- <p id="Dicas_de_senha" *ngIf=" dicas != ' ' " >{{dicas}}</p>
-<!-- <a href="/contato">Contato</a> -->
-<a routerLink="/contato">Contato</a>

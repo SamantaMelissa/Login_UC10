@@ -1,0 +1,17 @@
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+}
+
+.div_form{
+    background-color:rgb(222, 46, 46);
+    width: 500px;
+    padding: 50px;
+}

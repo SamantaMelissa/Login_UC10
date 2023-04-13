@@ -1,6 +1,23 @@
-
-
-
 .menu img{
     width: 300px;
+}
+
+.menu{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size:larger;
+
+}
+
+.menu nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

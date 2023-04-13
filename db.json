@@ -37,6 +37,13 @@
       "email": "samanta.melissa@gmail.com",
       "password": "$2a$10$7/K/wPvg8J.xwnA0XKeGy.D8NQU4/Qbzik6JNNxAqDBWeNYBMzhkS",
       "id": 6
+    },
+    {
+      "email": "bruno2@email.com",
+      "password": "$2a$10$VU/4sL9RlK5owfoQ2tIpEuPM.S.VEBut8HjI8Uqw4TmCPHc97ymqq",
+      "nome": "Bruno Santos",
+      "idade": 23,
+      "id": 7
     }
   ]
 }
